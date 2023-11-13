@@ -1,0 +1,39 @@
+ 
+html {
+    background-color: #0e1321;  
+}
+.game{
+    width: 800px;
+    text-align: center;
+    font-family: system-ui;
+    color: #625757;
+    margin: auto;
+}
+.game .tit {
+
+    background: #364e8a;
+    padding: 24px;
+    padding-left: 0;
+    margin: 10px 0;
+    color: #121111;
+    font-weight: 900;
+    font-size: 50px;
+}
+.game .tit span{
+    color: #91abd8;
+}
+.game .square{
+    width: 263px;
+    height: 198px;
+    background: #141d42;
+    opacity: 0.3;
+
+    float: left;
+    margin: 1.5px;
+    font-size: 138px;
+}
+
+.square:hover{
+    background:#323175;
+    cursor: pointer;
+}
